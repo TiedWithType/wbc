@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400&display=swap');
+
+:root {
+ /* font settings */
+ font-family: "Comfortaa", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: 400;
+ font-style: normal;
+ 
+ /* layout settings */
+ display: grid;
+ place-items: center;
+ place-content: center;
+ min-block-size: 100%;
+ inline-size: 100%;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ 
+ /* theme settings */
+ --darkPrimaryColor: #303F9F;
+ --lightPrimaryColor: #C5CAE9;
+ --primaryColor: #3F51B5;
+ --accentColor: #FF4081;
+ --redViolet: #C71585;
+ --powderBlue: #B0E0E6;
+ 
+ color: var(--themeColor);
+ background: var(--themeBackground);
+ 
+ /* light theme - followed by system */
+ @media (prefers-color-scheme: light) {
+  --themeColor: #212121;
+  --themeBackground: #FFFFFF;
+ }
+ 
+ /* dark theme - followed by system */
+ @media (prefers-color-scheme: dark) {
+  --themeColor: #FFFFFF;
+  --themeBackground: #212121;
+ }
+ 
+ /* relative units */
+ --base: 1rem;
+ --sm: 0.3125rem;
+ --md: 0.625rem;
+ --lg: 0.9375rem;
+ --xl: 1.25rem;
+ 
+ /* fixed units */
+ --half: 50%;
+ --full: 100%;
+}

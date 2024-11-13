@@ -1,0 +1,6 @@
+node_modules
+dist
+.vite
+.cache
+package-lock.json
+*.diff
