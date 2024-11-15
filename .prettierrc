@@ -1,0 +1,7 @@
+{
+  "singleQuote": true,
+  "tabWidth": 1,
+  "quoteProps": "preserve",
+  "arrowParens": "avoid",
+  "proseWrap": "always"
+}

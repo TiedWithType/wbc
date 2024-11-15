@@ -2,11 +2,11 @@
 
 :root {
  /* font settings */
- font-family: "Comfortaa", sans-serif;
+ font-family: 'Comfortaa', sans-serif;
  font-optical-sizing: auto;
  font-weight: 400;
  font-style: normal;
- 
+
  /* layout settings */
  display: grid;
  place-items: center;
@@ -16,37 +16,37 @@
  margin: 0;
  padding: 0;
  box-sizing: border-box;
- 
+
  /* theme settings */
- --darkPrimaryColor: #303F9F;
- --lightPrimaryColor: #C5CAE9;
- --primaryColor: #3F51B5;
- --accentColor: #FF4081;
- --redViolet: #C71585;
- --powderBlue: #B0E0E6;
- 
+ --darkPrimaryColor: #303f9f;
+ --lightPrimaryColor: #c5cae9;
+ --primaryColor: #3f51b5;
+ --accentColor: #ff4081;
+ --redViolet: #c71585;
+ --powderBlue: #b0e0e6;
+
  color: var(--themeColor);
  background: var(--themeBackground);
- 
+
  /* light theme - followed by system */
  @media (prefers-color-scheme: light) {
   --themeColor: #212121;
-  --themeBackground: #FFFFFF;
+  --themeBackground: #ffffff;
  }
- 
+
  /* dark theme - followed by system */
  @media (prefers-color-scheme: dark) {
-  --themeColor: #FFFFFF;
+  --themeColor: #ffffff;
   --themeBackground: #212121;
  }
- 
+
  /* relative units */
  --base: 1rem;
  --sm: 0.3125rem;
  --md: 0.625rem;
  --lg: 0.9375rem;
  --xl: 1.25rem;
- 
+
  /* fixed units */
  --half: 50%;
  --full: 100%;
