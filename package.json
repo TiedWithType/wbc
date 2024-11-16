@@ -1,5 +1,5 @@
 {
- "name": "web components",
+ "name": "web-components",
  "version": "0.0.1-dev",
  "type": "module",
  "scripts": {
@@ -8,6 +8,6 @@
   "preview": "vite preview"
  },
  "devDependencies": {
-  "vite": "^5.4.10"
+  "vite": "^6.0.0-beta.10"
  }
 }
